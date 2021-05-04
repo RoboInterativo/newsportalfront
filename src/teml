@@ -1,0 +1,42 @@
+2
+<Drawer anchor="left" open={true} >
+<ListItem >
+    <ListItemIcon>
+       <WhatshotIcon />
+
+   </ListItemIcon>
+    <ListItemText primary={"Лента"} />
+</ListItem>
+<ListItem >
+    <ListItemIcon>
+       <TrendingUpIcon />
+   </ListItemIcon>
+    <ListItemText primary={"Рейтинги"} />
+</ListItem>
+<ListItem >
+    <ListItemIcon>
+       <SubscriptionsIcon />
+
+   </ListItemIcon>
+    <ListItemText primary={"Подписки"} />
+</ListItem>
+
+<Divider/>
+
+<ListItem >
+        <ListItemIcon>
+          <JoyIcon style={{height:'24px',      width: '24px'}} />
+
+       </ListItemIcon>
+        <ListItemText primary={"Подписки"} />
+    </ListItem>
+<ListItem >
+            <ListItemIcon>
+              <MovieIcon style={{height:'24px',      width: '24px'}} />
+
+           </ListItemIcon>
+            <ListItemText primary={"Подписки"} />
+</ListItem>
+
+
+</Drawer>
